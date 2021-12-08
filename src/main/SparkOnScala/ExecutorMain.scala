@@ -5,7 +5,7 @@ def main(args:Array[String]): Unit =
   {
     val ss=SparkSession.
       builder()
-      .appName(name = "Dusht Aditya")
+      .appName(name = "First SparkSession")
       .master(master = "local[3]")
       .getOrCreate()
 while(true)
